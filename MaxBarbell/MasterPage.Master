@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="MaxBarbell.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Max Barbell</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script src="Scripts/SlideShowScript.js"></script>
+    <link rel="stylesheet" href="Styles/StyleSheet.css" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="banner">
+
+          <a href="Default.aspx">
+          <img src="Images/banner.jpg" alt="MAX BARBELL" />
+          </a>
+
+        </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Contacts.aspx">Contacts</a></li>
+                    <li><a href="Products.aspx">Products</a></li>
+                </ul>
+            </div>
+
+
+         <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+             </div>
+        
+        &nbsp &nbsp
+        <div id="footer">
+            <ul class="social-media-icons">
+                <li><a href="https://www.facebook.com/"> <img src="Images/Social-media-icons/Facebook.png"/></a></li>
+                <li><a href="https://www.instagram.com/?hl=en"> <img src="Images/Social-media-icons/Instagram.png" /></a></li>
+                <li><a href="https://www.reddit.com/r/Amd/"> <img src="Images/Social-media-icons/Reddit.png" /></a></li>
+                <li><a href="https://www.youtube.com/"> <img src="Images/Social-media-icons/YouTube.png" /></a></li>
+            </ul>
+        </div>
+        &nbsp &nbsp
+</form>
+
+
+</body>
+</html>
