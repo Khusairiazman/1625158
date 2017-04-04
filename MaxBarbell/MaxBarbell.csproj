@@ -86,7 +86,7 @@
     <Content Include="Images\Squat2.jpg" />
     <Content Include="packages.config" />
     <Content Include="MasterPage.Master" />
-    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\1625158.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
