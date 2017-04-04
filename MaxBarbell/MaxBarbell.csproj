@@ -66,13 +66,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\banner.jpg" />
+    <Content Include="Images\banner2.png" />
     <Content Include="Images\Dumbells.jpg" />
     <Content Include="Images\FrontSquat.jpg" />
+    <Content Include="Images\resized-bumperplates.jpg" />
     <Content Include="Images\resized-deadlift.jpg" />
     <Content Include="Images\resized-kneesleeves.jpg" />
+    <Content Include="Images\resized-powerlift2.jpg" />
+    <Content Include="Images\resized-resistancebands.jpg" />
     <Content Include="Images\resized-romaleos.jpg" />
     <Content Include="Images\resized-slingshot.jpg" />
     <Content Include="Images\resized-ssb.jpg" />
+    <Content Include="Images\resized-wheyprotein.jpg" />
     <Content Include="Images\Social-media-icons\Facebook.png" />
     <Content Include="Images\Social-media-icons\Instagram.png" />
     <Content Include="Images\Social-media-icons\Reddit.png" />

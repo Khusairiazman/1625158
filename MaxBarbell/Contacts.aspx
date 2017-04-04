@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div class="contact">  
+<div class="contact-container">
   <form id="contact" action="" method="post">
     
     <h1>Keep in touch!</h1>

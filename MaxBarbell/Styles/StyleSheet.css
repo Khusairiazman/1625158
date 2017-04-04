@@ -30,19 +30,20 @@ body {
     font-family: arial;
     font-size: 80%;
     line-height: 1.2em;
-    width: 100%;
+    width: 95%;
     margin: 20px;
     background: #eee;
 }
 
-logo {
-    width: 35%;
+banner {
+    width: 100%;
     margin-top: 5px;
-    font-family: georgia;
+    font-family: 'Lucida Sans';
     display: inline-block;
 }
 
 nav {
+    
     width: 60%;
     text-align: right;
     float: left;
@@ -96,8 +97,35 @@ content,
     box-shadow: 0px 1px 1px #999;
 }
 
-slideshow, slideshow img{
+slideshow {
     margin: auto;
     width: 800px;
     text-align: center;
+    float: right;
+}
+
+contact-container {
+    max-width:500px;
+    width: 100px;
+    margin: auto;
+    position: center;
+}
+
+contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+contact button[type="submit"]{
+    cursor:pointer;
+}
+
+
+
+fieldset {
+    border:medium;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 500px;
 }
