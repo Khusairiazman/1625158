@@ -26,7 +26,7 @@
                     <li><a href="Default.aspx">Home</a></li>
                     <li><a href="Contacts.aspx">Contacts</a></li>
                     <li><a href="Products.aspx">Products</a></li>
-                    <li><a href="">Sign in</a></li>
+                    
                 </ul>
             </div>
 
@@ -39,7 +39,7 @@
         
         &nbsp &nbsp
         <div id="footer">
-            <p>Where to find us: </p>
+            Where to find us:
             <ul class="social-media-icons">
                 <li><a href="https://www.facebook.com/"> <img src="Images/Social-media-icons/Facebook.png"/></a></li>
                 <li><a href="https://www.instagram.com/?hl=en"> <img src="Images/Social-media-icons/Instagram.png" /></a></li>
