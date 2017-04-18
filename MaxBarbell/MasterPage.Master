@@ -26,6 +26,7 @@
                     <li><a href="Default.aspx">Home</a></li>
                     <li><a href="Contacts.aspx">Contacts</a></li>
                     <li><a href="Products.aspx">Products</a></li>
+                    <li><a href="Register.aspx">Register</a></li>
                     
                 </ul>
             </div>
