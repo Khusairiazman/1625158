@@ -53,7 +53,7 @@
             Message:
             <br />
             <asp:TextBox ID="txtMsg" runat="server" Height="106px" TextMode="MultiLine" Width="359px"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="reqMsgValidator" runat="server" ControlToValidate="txtMsg" ErrorMessage="Phone Number is required."></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="reqMsgValidator" runat="server" ControlToValidate="txtMsg" ErrorMessage="Message is required."></asp:RequiredFieldValidator>
             <br />
             <br />
             <asp:Button ID="btnSendEmail" runat="server" OnClick="sendMessageClick" Text="Send" />
