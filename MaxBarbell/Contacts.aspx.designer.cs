@@ -13,13 +13,13 @@ namespace MaxBarbell.Pages {
     public partial class Contacts {
         
         /// <summary>
-        /// textName control.
+        /// txtName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textName;
+        protected global::System.Web.UI.WebControls.TextBox txtName;
         
         /// <summary>
         /// reqNameValidator control.
@@ -31,13 +31,22 @@ namespace MaxBarbell.Pages {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqNameValidator;
         
         /// <summary>
-        /// textEmail control.
+        /// txtNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtNo;
+        
+        /// <summary>
+        /// txtEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
         /// reqFieldEmail control.
@@ -49,40 +58,40 @@ namespace MaxBarbell.Pages {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqFieldEmail;
         
         /// <summary>
-        /// RegExprtChkEmail control.
+        /// RegExprChkEMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExprtChkEmail;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExprChkEMail;
         
         /// <summary>
-        /// textSubject control.
+        /// txtSubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textSubject;
+        protected global::System.Web.UI.WebControls.TextBox txtSubject;
         
         /// <summary>
-        /// textMessage control.
+        /// txtMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textMessage;
+        protected global::System.Web.UI.WebControls.TextBox txtMsg;
         
         /// <summary>
-        /// sendMessage control.
+        /// btnSendEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendMessage;
+        protected global::System.Web.UI.WebControls.Button btnSendEmail;
         
         /// <summary>
         /// litResult control.

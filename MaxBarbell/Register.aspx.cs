@@ -15,9 +15,9 @@ namespace MaxBarbell
 
         {  
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
-
             var userStore = new UserStore <IdentityUser>(identityDbContext);
             var manager = new UserManager <IdentityUser>(userStore);
+
 
             var user = new IdentityUser() { UserName = txtRegEmail.Text, Email = txtRegEmail.Text };
             IdentityResult result = manager.Create(user, txtRegPassword.Text);

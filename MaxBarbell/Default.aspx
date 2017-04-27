@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MaxBarbell.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .Slides {
+            text-align: justify;
+        }
+    </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -12,7 +17,8 @@
 	</p>
 
     <h1> Here is what we have in store </h1>
-    <div class="slideshow">
+
+    <div id="slideshow">
         <img class="Slides" src="Images/resized-powerlift2.jpg" alt="Adidas Powerlift 2.0">
         <img class="Slides" src="Images/resized-kneesleeves.jpg" alt="STrong Kneesleeves"> 
         <img class="Slides" src="Images/resized-romaleos.jpg" alt="Nike Romaleos">

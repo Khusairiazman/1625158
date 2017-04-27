@@ -105,6 +105,13 @@
     <Content Include="Images\banner2.png" />
     <Content Include="Images\Dumbells.jpg" />
     <Content Include="Images\FrontSquat.jpg" />
+    <Content Include="Images\product-bands.jpg" />
+    <Content Include="Images\product-plates.jpg" />
+    <Content Include="Images\product-powerlift.jpg" />
+    <Content Include="Images\product-romaleos.jpg" />
+    <Content Include="Images\product-sleeves.jpg" />
+    <Content Include="Images\product-slingshot.jpg" />
+    <Content Include="Images\product-whey.jpg" />
     <Content Include="Images\resized-bumperplates.jpg" />
     <Content Include="Images\resized-deadlift.jpg" />
     <Content Include="Images\resized-kneesleeves.jpg" />
@@ -135,6 +142,8 @@
     <Content Include="Contacts.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="product-resistancebands.aspx" />
+    <Content Include="product-wheyprotein.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\maps.js" />
@@ -169,6 +178,20 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="product-resistancebands.aspx.cs">
+      <DependentUpon>product-resistancebands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product-resistancebands.aspx.designer.cs">
+      <DependentUpon>product-resistancebands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="product-wheyprotein.aspx.cs">
+      <DependentUpon>product-wheyprotein.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product-wheyprotein.aspx.designer.cs">
+      <DependentUpon>product-wheyprotein.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -196,7 +219,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Pages\" />
+    <Folder Include="Pages\Products\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Microsoft.Owin.Security;
 
 namespace MaxBarbell
 {
@@ -26,6 +27,14 @@ namespace MaxBarbell
                 litLoginError.Text = "Invalid username or password";
             }
 
+        }
+
+        protected void LogUserIn (UserManager<IdentityUser> usermanager, IdentityUser user)
+        {
+            var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+            var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
+            authenticationManager.SignIn(new Microsoft.Owin.Security.AuthenticationProperties() { }, userIdentity);
+           
         }
     }
 }

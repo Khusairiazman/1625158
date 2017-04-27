@@ -3,19 +3,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+  <h1>Our Range of Products</h1>
 
-  <h1>What we have in store</h1>
+ <div class="product-wrapper">
 
-  <ul id="product-list">
-      <li><a href="Default.aspx"><img src="Images/resized-powerlift2.jpg" /></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-bumperplates.jpg" /></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-kneesleeves.jpg" /></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-resistancebands.jpg"/></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-romaleos.jpg" /></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-slingshot.jpg" /></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-ssb.jpg" /></a></li>
-      <li><a href="Default.aspx"><img src="Images/resized-wheyprotein.jpg" /></a></li>
-  </ul>
+   <a href="product-resistancebands.aspx"><img src="Images/product-bands.jpg" /></a> 
+   <a href="product-wheyprotein.aspx"><img src="Images/product-whey.jpg" /></a>
+   <a href="#"><img src="Images/product-plates.jpg" /></a>
+   <a href="#"><img src="Images/product-powerlift.jpg" /></a>
+   <a href="#"><img src="Images/product-romaleos.jpg" /></a>
+   <a href="#"><img src="Images/product-sleeves.jpg" /></a>
+   <a href="#"><img src="Images/product-slingshot.jpg" /></a>
+
+        
+ </div>
+	
+
+	
 
 
 </asp:Content>

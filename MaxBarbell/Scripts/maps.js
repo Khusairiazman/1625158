@@ -1,11 +1,12 @@
 ﻿function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(4.885728, 114.931669),
-        zoom: 5
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    var mapbn = { lat: 4.885728, lng: 114.931669 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 20,
+        center: mapbn,
+    });
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(4.885728, 114.931669),
+        position: mapbn,
+        map: map
     });
 }

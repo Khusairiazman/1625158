@@ -14,29 +14,28 @@ namespace MaxBarbell.Pages
         protected void Page_load(object sender, EventArgs e)
         {
             
-        }  
+        }
 
         protected void sendMessageClick(object sender, EventArgs e)
         {
-
-            SmtpClient smtpClient = new SmtpClient();
-            smtpClient.EnableSsl = true;
-            smtpClient.UseDefaultCredentials = false;
-            smtpClient.Host = "smtp.gmail.com";
-            smtpClient.Port = 587;
-            System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("c05027lcb@gmail.com", "P@55word1");
-            
-            smtpClient.Credentials = credentials; 
-
-            MailMessage msg = new MailMessage("c05027lcb@gmail.com", textEmail.Text);
-            msg.Subject = "Name: " + textName.Text + "Messaege:" + textSubject.Text;
-            msg.Body = textMessage.Text;
-            smtpClient.Send(msg);
+            MailMessage cstmsg = new MailMessage(txtEmail.Text, "maxbarbellbn@gmail.com");
+            cstmsg.Subject = txtSubject.Text;
+            cstmsg.Body = "Name: " + txtName.Text + "<br /><br />Email: " + txtEmail.Text + "<br />" + txtMsg.Text;
+         
+            cstmsg.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.EnableSsl = true;
+            System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
+            NetworkCred.UserName = "maxbarbellbn@gmail.com";
+            NetworkCred.Password = "p@55w0rd";
+            smtp.UseDefaultCredentials = true;
+            smtp.Credentials = NetworkCred;
+            smtp.Port = 587;
 
             try
             {
-                smtpClient.Send(msg);
+                smtp.Send(cstmsg);
                 litResult.Text =
                     "<p> Mail successfully through SMTP with a secure connection and credentials </p>";
             }
@@ -50,6 +49,4 @@ namespace MaxBarbell.Pages
         }
 
     }
-
-
-    }
+}

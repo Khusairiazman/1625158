@@ -17,12 +17,18 @@
     <br />
 
    
-    <asp:Button ID="loginButton" Text="Registeration" OnClick="loginButtonClick" runat="server" />
+    <asp:Button ID="loginButton" Text="Log In" OnClick="loginButtonClick" runat="server" />
     <br />
     <br />
+
+
+
+    <a href="Register.aspx">Not a member? Join us!</a>
 
     <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
 
+
+  
 
     
 

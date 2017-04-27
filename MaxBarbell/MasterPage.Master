@@ -14,22 +14,23 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        
         <div id="banner">
-
           <a href="Default.aspx">
-          <img src="Images/banner2.png" alt="MAX BARBELL" />
+          <img src="Images/banner.jpg" alt="MAX BARBELL" style="text-align: center" />
           </a>
-
         </div>
-            <div id="nav">
+
+
+        <div id="nav">
                 <ul>
                     <li><a href="Default.aspx">Home</a></li>
                     <li><a href="Contacts.aspx">Contacts</a></li>
                     <li><a href="Products.aspx">Products</a></li>
-                    <li><a href="Register.aspx">Register</a></li>
+                    <li><a href="Login.aspx">Log In</a></li>
                     
                 </ul>
-            </div>
+         </div>
 
 
          <div id="content">
@@ -51,6 +52,8 @@
             <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
                     <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
                     <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+
+          
 
         </div>
         &nbsp &nbsp

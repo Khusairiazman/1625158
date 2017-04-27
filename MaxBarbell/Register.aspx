@@ -17,7 +17,7 @@
     <br />
 
    
-    <asp:Button ID="registerButton" Text="Registeration" OnClick="registerButtonClick" runat="server" />
+    <asp:Button ID="registerButton" Text="Submit" OnClick="registerButtonClick" runat="server" />
     <br />
     <br />
 
