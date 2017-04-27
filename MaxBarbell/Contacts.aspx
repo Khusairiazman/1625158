@@ -32,6 +32,7 @@
 
             Phone Number:
             <asp:TextBox ID="txtNo" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="reqPhoneValidator" runat="server" ControlToValidate="txtNo" ErrorMessage="Phone Number is required."></asp:RequiredFieldValidator>
             
             <br />
             <br />
@@ -45,12 +46,14 @@
 
             Subject:
             <asp:TextBox ID="txtSubject" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="reqSubValidator" runat="server" ControlToValidate="txtSubject" ErrorMessage="Subject is required."></asp:RequiredFieldValidator>
             <br />
             <br />
 
             Message:
             <br />
             <asp:TextBox ID="txtMsg" runat="server" Height="106px" TextMode="MultiLine" Width="359px"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="reqMsgValidator" runat="server" ControlToValidate="txtMsg" ErrorMessage="Phone Number is required."></asp:RequiredFieldValidator>
             <br />
             <br />
             <asp:Button ID="btnSendEmail" runat="server" OnClick="sendMessageClick" Text="Send" />
