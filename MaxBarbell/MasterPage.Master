@@ -51,7 +51,7 @@
 
             <a href="admin.aspx">Admin</a>
 
-            <asp:Button ID="SignOut" runat="server" Text="Sign out" OnClick="SignOut_Click" />
+           
           
 
         </div>

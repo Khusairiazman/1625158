@@ -5,7 +5,7 @@
 
     <asp:FileUpload ID="imageFileUploadControl" runat="server" />
 
-    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+    <asp:Button ID="Button1" runat="server" Text="Upload" OnClick="Button1_Click" />
 
     <asp:Image ID="CurrentImage" runat="server" />
 

@@ -144,6 +144,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="product-resistancebands.aspx" />
+    <Content Include="product-romaleos.aspx" />
     <Content Include="product-wheyprotein.aspx" />
     <Content Include="Scripts\maps.js" />
     <Content Include="Scripts\SlideShowScript.js" />
@@ -191,6 +192,13 @@
     </Compile>
     <Compile Include="product-resistancebands.aspx.designer.cs">
       <DependentUpon>product-resistancebands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="product-romaleos.aspx.cs">
+      <DependentUpon>product-romaleos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product-romaleos.aspx.designer.cs">
+      <DependentUpon>product-romaleos.aspx</DependentUpon>
     </Compile>
     <Compile Include="product-wheyprotein.aspx.cs">
       <DependentUpon>product-wheyprotein.aspx</DependentUpon>

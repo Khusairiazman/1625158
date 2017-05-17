@@ -16,6 +16,7 @@ namespace MaxBarbell
 
             CurrentImage.ImageUrl = "~/Images/" + filename;
 
+
         
         }
 

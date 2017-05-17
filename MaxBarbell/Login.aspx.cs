@@ -32,9 +32,7 @@ namespace MaxBarbell
             if (user !=null)
             {
 
-
-          
-                if (User.IsInRole("Adminhue")) {
+                if (User.IsInRole("admin")) {
                     litLoginResult.Text = "Log in Success as admin";
                 }
                 else

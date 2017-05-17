@@ -18,10 +18,8 @@
 
    <a href="product-resistancebands.aspx"><img src="Images/product-bands.jpg" alt="Resistance Band" /></a> 
    <a href="product-wheyprotein.aspx"><img src="Images/product-whey.jpg" alt="Whey Protein" /></a>
-   <a href="#"><img src="Images/product-plates.jpg" alt="Bumper Plates" /></a>&nbsp;<a href="#"><img src="Images/product-powerlift.jpg" alt="Powerlift 2"/></a>
-   <a href="#"><img src="Images/product-romaleos.jpg" alt="Romaleos"/></a>
-   <a href="#"><img src="Images/product-sleeves.jpg" alt="Knee Sleeves"/></a>
-   <a href="#"><img src="Images/product-slingshot.jpg" alt="Mark Bell Slngshot"/></a>
+   <a href="product-romaleos.aspx"><img src="Images/product-romaleos.jpg" alt="Romaleos"/></a>
+
         
 </div>
 
