@@ -31,24 +31,6 @@ namespace MaxBarbell.Pages {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqNameValidator;
         
         /// <summary>
-        /// txtNo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNo;
-        
-        /// <summary>
-        /// reqPhoneValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqPhoneValidator;
-        
-        /// <summary>
         /// txtEmail control.
         /// </summary>
         /// <remarks>

@@ -12,7 +12,7 @@
 
     Password: 
 
-    <asp:TextBox ID="txtRegPassword" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtRegPassword" runat="server" type="password"></asp:TextBox>
     <br />
     <br />
 
@@ -22,5 +22,6 @@
     <br />
 
     <asp:Literal ID="litRegisterError" runat="server"></asp:Literal>
+    <asp:Literal ID="litRegisterResult" runat="server"></asp:Literal>
 
 </asp:Content>

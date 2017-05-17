@@ -10,6 +10,6 @@
 namespace MaxBarbell {
     
     
-    public partial class Products {
+    public partial class Admin_Default {
     }
 }

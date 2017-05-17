@@ -1,15 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MaxBarbell.Default" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Admin-Default.aspx.cs" Inherits="MaxBarbell.Admin_Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>Home</h1>
+<h1>Home</h1>
 
-	<p>
-			Max Barbell is a central for gym rats and enthusiasts alike. We provide top notch facilities, specialty equipments, consumables and many more. We also provide personal training and seminars from notable trainers. We also take special orders and requests all can be made through our contact page. 
-	</p>
+<p>
+Max Barbell is a central for gym rats and enthusiasts alike. We provide top notch facilities, specialty equipments, consumables and many more. We also provide personal training and seminars from notable trainers. We also take special orders and requests all can be made through our contact page. 
+</p>
 
     <h1> Here is what we have in store </h1>
 

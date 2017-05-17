@@ -50,27 +50,21 @@ p {
 }
 
 
-slideshow {
-    margin: auto;
-    width: 800px;
-    text-align: center;
-}
-
-
 .product-image {
-    float:right;
+    float: right;
 }
 
+.product-wrapper {
+    margin: 0;
+    padding: 0;
+}
 
-footer {
-    position:center;
-    bottom: 10px;
+.social-media-icons {
+    position: center;
+    bottom: 5px;
     width: 100%;
-    background: #666;
+    background: #333;
     padding: 24px;
-    font-size: 12px;
-    color: #CCC;
-    text-align: center;
+    height:auto;
 }
-
 

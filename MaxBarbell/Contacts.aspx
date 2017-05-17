@@ -30,13 +30,6 @@
             <br />
             <br />
 
-            Phone Number:
-            <asp:TextBox ID="txtNo" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="reqPhoneValidator" runat="server" ControlToValidate="txtNo" ErrorMessage="Phone Number is required."></asp:RequiredFieldValidator>
-            
-            <br />
-            <br />
-
             Email:
             <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="reqFieldEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Email is required."></asp:RequiredFieldValidator>

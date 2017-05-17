@@ -12,7 +12,7 @@
 
     Password: 
 
-    <asp:TextBox ID="txtLoginPassword" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtLoginPassword" runat="server" type="password"></asp:TextBox>
     <br />
     <br />
 
@@ -21,12 +21,34 @@
     <br />
     <br />
 
+      <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
+    <asp:Literal ID="litLoginResult" runat="server"></asp:Literal>
 
 
-    <a href="Register.aspx">Not a member? Join us!</a>
+       <h1>Registration</h1>
 
-    <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
+    Username: 
+    <asp:TextBox ID="txtRegEmail" runat="server"></asp:TextBox>
+    <br />
+    <br />
 
+    Password: 
+
+    <asp:TextBox ID="txtRegPassword" runat="server" type="password"></asp:TextBox>
+    <br />
+    <br />
+
+   
+    <asp:Button ID="registerButton" Text="Register" OnClick="registerButtonClick" runat="server" />
+    <br />
+    <br />
+
+    <asp:Literal ID="litRegisterError" runat="server"></asp:Literal>
+    <asp:Literal ID="litRegisterResult" runat="server"></asp:Literal>
+
+ 
+
+  
 
   
 
